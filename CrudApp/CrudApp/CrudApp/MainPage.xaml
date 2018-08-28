@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CrudApp"
+             x:Class="CrudApp.MainPage"
+             Title="Gestão de clientes"
+             >
+
+    <StackLayout Padding="40" >
+
+        <Button Text="Listar Clientes" BackgroundColor="Transparent" Clicked="Consultar"  Image="Listar.png"/>
+        <Button Text="Adicionar" Clicked="Adicionar" BackgroundColor="Transparent" Image="Adicionar.png"/>
+        <Button Text="Consultar Cliente"  BackgroundColor="Transparent" Clicked="Pesquisar" Image="Consultar.png"/>
+        <Button Text="Listar com ordenação"  BackgroundColor="Transparent" Clicked="Sort" Image="Ordenar.png"/>
+        <Button Text="Excluir Cliente" BackgroundColor="Transparent" Clicked="Excluir" Image="remover.png"/>
+        <Button  Text="Sair"  Clicked="Sair" BackgroundColor="Transparent" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand"/>
+    </StackLayout>
+
+</ContentPage>

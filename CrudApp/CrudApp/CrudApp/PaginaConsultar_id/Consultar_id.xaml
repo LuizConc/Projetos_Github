@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CrudApp.PaginaConsultar_id.Consultar_id"
+             >
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Entry Placeholder="ID ou Nome" x:Name="ID_Consumidor" Completed="Search"/>
+            <ListView  x:Name="Myview" ItemsSource="Lista" 
+                  CachingStrategy="RecycleElement">
+
+                <ListView.ItemTemplate>
+                    <DataTemplate >
+                        <TextCell   Text="{Binding Informacao}"  TextColor="Black"  
+                               Detail="{Binding Informacao2}">
+                            <TextCell.ContextActions>
+
+                                <MenuItem Text="Deletar" Clicked="MenuItemApagar" CommandParameter="{Binding .}" IsDestructive="True" />
+                            </TextCell.ContextActions>
+                        </TextCell>
+
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

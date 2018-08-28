@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CrudApp.PaginaConsulta.Consultar"
+            >
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+           
+            
+            <ListView  x:Name="Myview" ItemsSource="Lista" 
+                  CachingStrategy="RecycleElement">
+
+                <ListView.ItemTemplate>
+                    <DataTemplate >
+                        <TextCell   Text="{Binding Informacao3}"  TextColor="Black"  
+                               >
+                            <TextCell.ContextActions>
+
+                                <MenuItem Text="Excluir" Clicked="MenuItemApagar" CommandParameter="{Binding .}" IsDestructive="True" />
+                            </TextCell.ContextActions>
+                        </TextCell>
+
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+            
+            <Button Text="Excluir Todos" BackgroundColor="Transparent" x:Name="Apagar" Clicked="ApagarTudo"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

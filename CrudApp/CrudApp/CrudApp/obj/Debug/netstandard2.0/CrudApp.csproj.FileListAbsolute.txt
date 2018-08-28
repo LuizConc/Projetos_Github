@@ -1,0 +1,9 @@
+C:\Users\gusta\source\repos\CrudApp\CrudApp\CrudApp\obj\Debug\netstandard2.0\CrudApp.csprojAssemblyReference.cache
+C:\Users\gusta\source\repos\CrudApp\CrudApp\CrudApp\obj\Debug\netstandard2.0\CrudApp.csproj.CoreCompileInputs.cache
+C:\Users\gusta\source\repos\CrudApp\CrudApp\CrudApp\obj\Debug\netstandard2.0\CrudApp.AssemblyInfoInputs.cache
+C:\Users\gusta\source\repos\CrudApp\CrudApp\CrudApp\obj\Debug\netstandard2.0\CrudApp.AssemblyInfo.cs
+C:\Users\gusta\source\repos\CrudApp\CrudApp\CrudApp\bin\Debug\netstandard2.0\CrudApp.deps.json
+C:\Users\gusta\source\repos\CrudApp\CrudApp\CrudApp\bin\Debug\netstandard2.0\CrudApp.dll
+C:\Users\gusta\source\repos\CrudApp\CrudApp\CrudApp\bin\Debug\netstandard2.0\CrudApp.pdb
+C:\Users\gusta\source\repos\CrudApp\CrudApp\CrudApp\obj\Debug\netstandard2.0\CrudApp.dll
+C:\Users\gusta\source\repos\CrudApp\CrudApp\CrudApp\obj\Debug\netstandard2.0\CrudApp.pdb
